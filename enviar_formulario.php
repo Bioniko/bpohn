@@ -21,14 +21,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.office365.com'; // Servidor de Outlook
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'mail.alertahn.com'; // Tu correo Outlook
+        $mail->Username   = 'info@alertahn.com'; // Tu correo Outlook
         $mail->Password   = 'aleIN2024##'; // Tu contraseña
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // Remitente y destinatario
-        $mail->setFrom('mail.alertahn.com', 'Formulario Web');
-        $mail->addAddress('mail.alertahn.com'); // Puedes poner otro correo si deseas
+        $mail->setFrom('info@alertahn.com', 'Formulario Web');
+        $mail->addAddress('info@alertahn.com'); // Puedes poner otro correo si deseas
 
         // Contenido del correo
         $mail->isHTML(true);
