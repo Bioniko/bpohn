@@ -16,9 +16,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     try {
         // Configuración del servidor SMTP de Outlook
+        $mail->SMTPDebug = 2; // para modo debug (muestra la comunicación SMTP)
+        $mail->Debugoutput = 'html'; // para ver el debug en HTML
         $mail->isSMTP();
         $mail->Host       = 'smtp.office365.com'; // Servidor de Outlook
         $mail->SMTPAuth   = true;
+        $mail->SMTPSecure = 'tls';
         $mail->Username   = 'jorge_o89@hotmail.com'; // Tu correo Outlook
         $mail->Password   = 'tbonfzpdnndapexf'; // Tu contraseña
         $mail->SMTPSecure = 'tls';
