@@ -19,14 +19,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.office365.com'; // Servidor de Outlook
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'tu_correo@outlook.com'; // Tu correo Outlook
-        $mail->Password   = 'tu_contraseña'; // Tu contraseña
+        $mail->Username   = 'jorge_o89@hotmail.com'; // Tu correo Outlook
+        $mail->Password   = 'tbonfzpdnndapexf'; // Tu contraseña
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
         // Remitente y destinatario
-        $mail->setFrom('tu_correo@outlook.com', 'Formulario Web');
-        $mail->addAddress('tu_correo@outlook.com'); // Puedes poner otro correo si deseas
+        $mail->setFrom('jorge_o89@hotmail.com', 'Formulario Web');
+        $mail->addAddress('jorge_o89@hotmail.com'); // Puedes poner otro correo si deseas
 
         // Contenido del correo
         $mail->isHTML(true);
