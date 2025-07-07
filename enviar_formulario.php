@@ -21,7 +21,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.office365.com'; // Servidor de Outlook
         $mail->SMTPAuth   = true;
-        $mail->SMTPSecure = 'tls';
         $mail->Username   = 'jorge_o89@hotmail.com'; // Tu correo Outlook
         $mail->Password   = 'tbonfzpdnndapexf'; // Tu contraseña
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
