@@ -1,4 +1,4 @@
-<form method="POST" action="enviar.php">
+<form method="POST" action="enviar_formulario.php">
   <input type="text" name="nombre" placeholder="Tu nombre" required><br>
   <input type="email" name="email" placeholder="Tu correo" required><br>
   <textarea name="mensaje" placeholder="Tu mensaje" required></textarea><br>
