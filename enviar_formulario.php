@@ -10,9 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $mensaje = $_POST['mensaje'] ?? '';
     $mail = new PHPMailer(true);
     try {
-        $mail->SMTPDebug = 2; // Modo debug para ver detalles
-        $mail->Debugoutput = 'html';
-
+        //$mail->SMTPDebug = 2; // Modo debug para ver detalles
+        //$mail->Debugoutput = 'html';
         $mail->isSMTP();
         $mail->Host       = 'mail.alertahn.com';   // Servidor SMTP HostGator
         $mail->SMTPAuth   = true;
@@ -21,11 +20,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL para puerto 465
         $mail->Port       = 465;                    // Puerto SSL
 
-        $mail->setFrom('info@alertahn.com', 'Formulario Web');
+        $mail->setFrom('info@alertahn.com', 'mail@alertahn.com');
         $mail->addAddress('info@alertahn.com');    // Destinatario
 
         $mail->isHTML(true);
-        $mail->Subject = "Nuevo mensaje del formulario de contacto";
+        $mail->Subject = "Nuevo mensaje de Alerta Security Group";
         $mail->Body    = "
             <h3>Nuevo mensaje recibido</h3>
             <p><strong>Nombre:</strong> {$nombre}</p>
