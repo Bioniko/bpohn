@@ -189,35 +189,35 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
  
  <label for=et_pb_contact_first_name_0 class="et_pb_contact_form_label sf-hidden">Nombre</label>
- <input type=text id=et_pb_contact_first_name_0 class=input value name=et_pb_contact_first_name_0 data-required_mark=required data-field_type=input data-original_id=first_name placeholder=Nombre>
+ <input type=text id=et_pb_contact_first_name_0 class=input value name=nombre data-required_mark=required data-field_type=input data-original_id=first_name placeholder=Nombre>
  <p class="et_pb_contact_field et_pb_contact_field_1 et_pb_contact_field_half et_pb_contact_field_last" data-id=last_name data-type=input>
  
  
  
  
  <label for=et_pb_contact_last_name_0 class="et_pb_contact_form_label sf-hidden">Apellido</label>
- <input type=text id=et_pb_contact_last_name_0 class=input value name=et_pb_contact_last_name_0 data-required_mark=required data-field_type=input data-original_id=last_name placeholder=Apellido>
+ <input type=text id=et_pb_contact_last_name_0 class=input value name=apellido data-required_mark=required data-field_type=input data-original_id=last_name placeholder=Apellido>
  <p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_half" data-id=phone data-type=input>
  
  
  
  
  <label for=et_pb_contact_phone_0 class="et_pb_contact_form_label sf-hidden">Teléfono</label>
- <input type=text id=et_pb_contact_phone_0 class=input value name=et_pb_contact_phone_0 data-required_mark=required data-field_type=input data-original_id=phone placeholder=Teléfono>
+ <input type=text id=et_pb_contact_phone_0 class=input value name=telefono data-required_mark=required data-field_type=input data-original_id=phone placeholder=Teléfono>
  <p class="et_pb_contact_field et_pb_contact_field_3 et_pb_contact_field_half et_pb_contact_field_last" data-id=email-address data-type=email>
  
  
  
  
  <label for=et_pb_contact_email-address_0 class="et_pb_contact_form_label sf-hidden">Correo eléctronico</label>
- <input type=text id=et_pb_contact_email-address_0 class=input value name=et_pb_contact_email-address_0 data-required_mark=required data-field_type=email data-original_id=email-address placeholder="Correo eléctronico">
+ <input type=text id=et_pb_contact_email-address_0 class=input value name=correo data-required_mark=required data-field_type=email data-original_id=email-address placeholder="Correo eléctronico">
  <p class="et_pb_contact_field et_pb_contact_field_4 et_pb_contact_field_last" data-id=drop_down data-type=select>
  
  
  
  
  <label for=et_pb_contact_drop_down_0 class="et_pb_contact_form_label sf-hidden"> Elegir opción</label>
- <select id=et_pb_contact_drop_down_0 class="et_pb_contact_select input" name=et_pb_contact_drop_down_0 data-required_mark=required data-field_type=select data-original_id=drop_down>
+ <select id=et_pb_contact_drop_down_0 class="et_pb_contact_select input" name=mensaje data-required_mark=required data-field_type=select data-original_id=drop_down>
 						<option value selected> Elegir opción<option value=Limpieza>Limpieza<option value=Impulsadora>Impulsadora<option value=Mensajero>Mensajero<option value=Piloto/Motorista>Piloto/Motorista<option value=Promotor>Promotor<option value="Carga y descarga de furgones">Carga y descarga de furgones<option value=Otros>Otros</option>
 					</select>
  </p>
