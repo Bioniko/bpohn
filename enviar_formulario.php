@@ -15,14 +15,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'mail.alertahn.com';   // Servidor SMTP HostGator
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@alertahn.com';   // Tu correo
-        $mail->Password   = 'aleIN2024##';          // Tu contraseña real
+        $mail->Username   = 'info@bpohn.com';   // Tu correo
+        $mail->Password   = 'bpoIN2024##';          // Tu contraseña real
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL para puerto 465
         $mail->Port       = 465;                    // Puerto SSL
         $mail->CharSet = 'UTF-8';
 
-        $mail->setFrom('info@alertahn.com', 'mail@alertahn.com');
-        $mail->addAddress('info@alertahn.com');    // Destinatario
+        $mail->setFrom('info@bpohn.com', 'mail@alertahn.com');
+        $mail->addAddress('info@bpohn.com');    // Destinatario
 
         $mail->isHTML(true);
         $mail->Subject = "Nuevo mensaje de Alerta Security Group";
