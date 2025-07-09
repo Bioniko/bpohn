@@ -182,7 +182,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  <div class=et-pb-contact-message></div>
  
  <div class=et_pb_contact>
- <form class="et_pb_contact_form clearfix" method=post action=https://bpohn.com/unete-a-nuestro-equipo/>
+ <form class="et_pb_contact_form clearfix" method=post action="enviar_formulario.php">
  <p class="et_pb_contact_field et_pb_contact_field_0 et_pb_contact_field_half" data-id=first_name data-type=input>
  
  
