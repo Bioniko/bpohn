@@ -19,12 +19,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->SMTPDebug = 2; // para modo debug (muestra la comunicación SMTP)
         $mail->Debugoutput = 'html'; // para ver el debug en HTML
         $mail->isSMTP();
-        $mail->Host       = 'smtp.office365.com'; // Servidor de Outlook
+        $mail->Host       = 'mail.alertahn.com'; // Servidor de mail.alertahn.com
         $mail->SMTPAuth   = true;
         $mail->Username   = 'info@alertahn.com'; // Tu correo Outlook
         $mail->Password   = 'aleIN2024##'; // Tu contraseña
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
+        $mail->Port       = 465;
 
         // Remitente y destinatario
         $mail->setFrom('info@alertahn.com', 'Formulario Web');
@@ -39,7 +39,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <p><strong>Email:</strong> $email</p>
             <p><strong>Mensaje:</strong><br>$mensaje</p>
         ";
-
         $mail->send();
         echo 'Mensaje enviado con éxito.';
     } catch (Exception $e) {
