@@ -35,7 +35,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <p><strong>¡Cuéntanos qué servicio te interesa!:</strong><br>{$mensaje}</p>
         ";
         $mail->send();
-        echo "<script>alert('Datos enviados exitosamente');window.history.back();</script>";
+        echo "
+        <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+        <script>
+            Swal.fire({
+                title: '¡Enviado!',
+                text: 'Datos enviados exitosamente',
+                icon: 'success',
+                confirmButtonText: 'Volver'
+            }).then(() => {
+                window.history.back();
+            });
+        </script>
+        ";
     } catch (Exception $e) {
         echo "<script>alert('No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}');window.history.back();</script>";
         //echo "No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}";
