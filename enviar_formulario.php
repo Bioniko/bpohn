@@ -1,16 +1,14 @@
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
 require 'vendor/autoload.php'; // si usas Composer
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nombre  = $_POST['nombre'] ?? '';
-    $email   = $_POST['email'] ?? '';
+    $apellido  = $_POST['apellido'] ?? '';
+    $telefono  = $_POST['telefono'] ?? '';
+    $correo   = $_POST['correo'] ?? '';
     $mensaje = $_POST['mensaje'] ?? '';
-
     $mail = new PHPMailer(true);
-
     try {
         $mail->SMTPDebug = 2; // Modo debug para ver detalles
         $mail->Debugoutput = 'html';
@@ -31,14 +29,16 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Body    = "
             <h3>Nuevo mensaje recibido</h3>
             <p><strong>Nombre:</strong> {$nombre}</p>
-            <p><strong>Email:</strong> {$email}</p>
-            <p><strong>Mensaje:</strong><br>{$mensaje}</p>
+            <p><strong>Apellido:</strong> {$apellido}</p>
+            <p><strong>Teléfono:</strong> {$telefono}</p>
+            <p><strong>Correo electrónico:</strong> {$correo}</p>
+            <p><strong>¡Cuéntanos qué servicio te interesa!:</strong><br>{$mensaje}</p>
         ";
-
         $mail->send();
-        echo 'Mensaje enviado con éxito.';
+        echo "<script>alert('Datos enviados exitosamente');</script>";
     } catch (Exception $e) {
-        echo "No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}";
+        echo "<script>alert('No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}');</script>";
+        //echo "No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}";
     }
 }
 ?>
