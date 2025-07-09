@@ -19,6 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Password   = 'aleIN2024##';          // Tu contraseña real
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // SSL para puerto 465
         $mail->Port       = 465;                    // Puerto SSL
+        $mail->CharSet = 'UTF-8';
 
         $mail->setFrom('info@alertahn.com', 'mail@alertahn.com');
         $mail->addAddress('info@alertahn.com');    // Destinatario
@@ -34,9 +35,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <p><strong>¡Cuéntanos qué servicio te interesa!:</strong><br>{$mensaje}</p>
         ";
         $mail->send();
-        echo "<script>alert('Datos enviados exitosamente');</script>";
+        echo "<script>alert('Datos enviados exitosamente');window.history.back();</script>";
     } catch (Exception $e) {
-        echo "<script>alert('No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}');</script>";
+        echo "<script>alert('No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}');window.history.back();</script>";
         //echo "No se pudo enviar el mensaje. Error: {$mail->ErrorInfo}";
     }
 }
