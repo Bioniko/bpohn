@@ -207,7 +207,7 @@
                <div class="row">
                   <div class="col-sm-12">
                      <div class="contact_main layout_padding">
-                        <form action="/action_page.php">
+                        <form action="enviar_formulario.php" method="POST" id="miFormulario">
                            <div class="form-group">
                               <input type="text" class="email-bt" placeholder="Nombre" name="nombre">
                            </div>
@@ -224,7 +224,7 @@
                               <textarea class="massage-bt" placeholder="Cuéntanos qué servicio te interesa" rows="5" id="comment" name="mensaje"></textarea>
                            </div>
                         </form>
-                        <div class="send_bt"><a href="enviar_formulario.php">Contáctanos</a></div>
+                        <div class="send_bt" onclick="document.getElementById('miFormulario').submit()"><a style="color: #fff">Contáctanos</a></div>
                      </div>
                   </div>
                </div>
