@@ -227,13 +227,13 @@
                            <div class="form-group" style="padding: 0% 0% 5% 0%">
                               <select class="email-bt" placeholder=" Elegir opción" rows="5" id="comment" name="mensaje">
                                  <option value="" disable> Elegir opción</option>
-                                 <option value="">Limpieza</option>
-                                 <option value="">Impulsadora</option>
-                                 <option value="">Mensajero</option>
-                                 <option value="">Piloto/Motorista</option>
-                                 <option value="">Promotor</option>
-                                 <option value="">Carga y descarga de furgones</option>
-                                 <option value="">Otros</option>
+                                 <option value="Limpieza">Limpieza</option>
+                                 <option value="Impulsadora">Impulsadora</option>
+                                 <option value="Mensajero">Mensajero</option>
+                                 <option value="Piloto/Motorista">Piloto/Motorista</option>
+                                 <option value="Promotor">Promotor</option>
+                                 <option value="Carga y descarga de furgones">Carga y descarga de furgones</option>
+                                 <option value="Otros">Otros</option>
                               </select>
                            </div>
                         </form>
