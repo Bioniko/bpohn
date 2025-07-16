@@ -53,31 +53,13 @@
             <h1 class="contact_taital">Nuestros Servicios</h1>
                <p style="text-align: center;">Nos adaptamos a necesidades específicas de nuestros clientes</p>
             <div class="row" style="padding: 5% 10% 5% 10%;">
-               <div class="col-md-4 col-sm-12" style="text-align: center;">
-                  <img src="images/img/AdminPlanilla.png" style="width: 20%;">
-                  <h3 style="padding: 5% 0% 0% 0%">Administración de Planilla</h3>
+               <div class="col-md-6 col-sm-12" style="text-align: center;padding: 5% 10% 5% 10%;">
+                  <img src="images/img/Ícono de Servicio de Limpieza Industrial.png" style="width: 94%;">
+                  <h3 style="padding: 5% 0% 0% 0%">Limpieza Industrial</h3>
                </div>
-               <div class="col-md-4 col-sm-12" style="text-align: center;">
-                  <img src="images/img/Impulsadora.png" style="width: 20%;">
-                  <h3 style="padding: 5% 0% 0% 0%">Procesos Productivos</h3>
-               </div>
-               <div class="col-md-4 col-sm-12" style="text-align: center;">
-                  <img src="images/img/LimpiezaProfesional.png" style="width: 20%;">
-                  <h3 style="padding: 5% 0% 0% 0%">Limpieza Profesional</h3>
-               </div>
-            </div>
-            <div class="row" style="padding: 5% 10% 5% 10%;">
-               <div class="col-md-4 col-sm-12" style="text-align: center;">
-                  <img src="images/img/Procesos.png" style="width: 20%;">
-                  <h3 style="padding: 5% 0% 0% 0%">Impulsadoras</h3>
-               </div>
-               <div class="col-md-4 col-sm-12" style="text-align: center;">
-                  <img src="images/img/Mensajeria-1.png" style="width: 20%;">
-                  <h3 style="padding: 5% 0% 0% 0%">Mensajería</h3>
-               </div>
-               <div class="col-md-4 col-sm-12" style="text-align: center;">
-                  <img src="images/img/Promotores.png" style="width: 20%;">
-                  <h3 style="padding: 5% 0% 0% 0%">Promotores</h3>
+               <div class="col-md-6 col-sm-12" style="text-align: center;padding: 5% 10% 5% 10%;">
+                  <img src="images/img/Ícono de Limpieza Corporativa.png" style="width: 100%;">
+                  <h3 style="padding: 5% 0% 0% 0%">Limpieza Corporativa</h3>
                </div>
             </div>
          </div>
@@ -163,32 +145,42 @@
                      <div class="client_section_2">
                         <div class="client_main">
                            <div class="client_left">
-                              <div class="client_img acoplar"><img src="images/img/Soluciones-Flexibles.png" class="tamanioimg"></div>
+                              <div class="client_img acoplar"><img src="images/img/1.png" class="tamanioimg"></div>
                            </div>
                            <div class="client_right">
-                              <h3 class="name_text">Soluciones flexibles de Staffing <span style="float: right;"></h3>
-                              <p class="dolor_text">ESTRATEGIA</p>
-                              <p class="lorem_text">Ofrecemos soluciones flexibles de dotación de personal para satisfacer sus necesidades específicas. Tanto si necesita personal temporal para un proyecto a corto plazo como personal permanente para puestos a largo plazo, tenemos lo que necesita. </p>
+                              <h3 class="name_text">MONITOREO EN TIEMPO REAL <span style="float: right;"></h3>
+                              <p class="dolor_text">CONTROL</p>
+                              <p class="lorem_text">Accede a nuestra plataforma exclusiva y monitorea en directo el estado de la limpieza en tu empresa con fotos y videos, información del personal, registros históricos de trabajo y mucho más.</p>
                            </div>
                         </div>
                         <div class="client_main_2">
                            <div class="client_right_2">
-                              <h3 class="name_text">Experiencia en diversas industrias <span style="float: left;"></h3>
+                              <h3 class="name_text">PERSONAL ALTAMENTE CAPACITADO<span style="float: left;"></h3>
                               <p class="dolor_text">EXPERTISE</p>
-                              <p class="lorem_text">Gracias a nuestra amplia experiencia en diversos sectores, podemos proporcionar personal especializado para una gran variedad de puestos. Nos encargamos de ponerle en contacto con los profesionales adecuados.</p>
+                              <p class="lorem_text">Nuestro equipo de limpieza está certificado y altamente capacitado en protocolos de higiene avanzada, asegurando un resultado impecable en cada detalle.<br><br></p>
                            </div>
                            <div class="client_left_2">
-                              <div class="client_img acoplar"><img src="images/img/Experiencia-en-diferentes-industrias.png" class="tamanioimg"></div>
+                              <div class="client_img acoplar"><img src="images/img/2.png" class="tamanioimg"></div>
                            </div>
                         </div>
                         <div class="client_main" style="margin-top: 45px;">
                            <div class="client_left">
-                              <div class="client_img acoplar"><img src="images/img/Ahorre-Tiempo-y-Recursos.png1_ (1).png" class="tamanioimg"></div>
+                              <div class="client_img acoplar"><img src="images/img/3.png" class="tamanioimg"></div>
                            </div>
                            <div class="client_right">
-                              <h3 class="name_text">Ahorre tiempo y recursos<span style="float: right;"></h3>
+                              <h3 class="name_text">FLEXIBILIDAD Y PERSONALIZACIÓN<span style="float: right;"></h3>
+                              <p class="dolor_text">ADAPTABILIDAD</p>
+                              <p class="lorem_text">Servicios adaptados a tu horarios y necesidades especificas.<br><br><br></p>
+                           </div>
+                        </div>
+                        <div class="client_main_2">
+                           <div class="client_right_2">
+                              <h3 class="name_text">AHORRE TIEMPO Y RECURSOS<span style="float: left;"></h3>
                               <p class="dolor_text">EFICIENCIA</p>
-                              <p class="lorem_text">Externalizar con nosotros sus necesidades de personal le permite ahorrar tiempo y recursos en contratación, formación y gestión de RRHH. Nosotros nos encargamos de todos los procesos necesarios, para que usted pueda centrarse en su actividad principal.</p>
+                              <p class="lorem_text">Ahorre tiempo y recursos en contratación y gestión de RRHH. Nosotros nos encargamos de todo los procesos necesarios para que usted pueda centrarse en su actividad principal.<br><br></p>
+                           </div>
+                           <div class="client_left_2">
+                              <div class="client_img acoplar"><img src="images/img/4.png" class="tamanioimg"></div>
                            </div>
                         </div>
                      </div>

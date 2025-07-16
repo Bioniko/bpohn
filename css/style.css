@@ -652,7 +652,7 @@ button.owl-next {
 .client_sectiion {
     width: 100%;
     float: left;
-    background-image: url(../images/client-bg.png);
+    background-color: #f59269;
     height: auto;
     background-size: 100% 100%;
     background-repeat: no-repeat;
