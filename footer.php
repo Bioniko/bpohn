@@ -54,10 +54,10 @@
         <a href="https://www.linkedin.com/tuempresa" target="_blank" style="margin: 0 10px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="height: 25px;">
         </a>
-        <a href="https://www.facebook.com/tuempresa" target="_blank" style="margin: 0 10px;">
+        <a href="https://web.facebook.com/profile.php?id=61554738650578&mibextid=LQQJ4d&_rdc=1&_rdr#" target="_blank" style="margin: 0 10px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" style="height: 25px;">
         </a>
-        <a href="https://www.instagram.com/tuempresa" target="_blank" style="margin: 0 10px;">
+        <a href="https://www.instagram.com/bposolutionsgrouphn?igsh=MXJ6NzdneXphaGFmNA==" target="_blank" style="margin: 0 10px;">
           <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="height: 25px;">
         </a>
       </div>
