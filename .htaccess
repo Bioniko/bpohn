@@ -9,3 +9,10 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
+# Redirige errores de escritura como index.hrml hacia index.html
+Redirect 301 /index.hrml /index.html
+
+# Página de error 404 personalizada (opcional)
+ErrorDocument 404 /404.html
+
+
