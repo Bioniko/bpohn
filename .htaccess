@@ -1,7 +1,4 @@
 # Bloquear acceso web al directorio .git
 RedirectMatch 404 ^/\.git
-# Forzar redirección de HTTP a HTTPS
-RewriteEngine On
 
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
