@@ -1,6 +1,6 @@
 <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-        <a class="nav-link" href="index.php">Inicio</a>
+        <a class="nav-link" href="index.html">Inicio</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="soluciones-y-servicios.php">Soluciones y Servicios</a>
