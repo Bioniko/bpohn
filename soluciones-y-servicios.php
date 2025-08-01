@@ -33,8 +33,7 @@
       <!-- banner section start -->
       <div class="banner_section layout_padding">
          <div class="container">
-            <img class="desktop-img" src="images/img/panel2.png" alt="Logo" class="banner_img">
-            <img class="mobile-img" src="images/img/celular.png" alt="Logo" style="display:none;" class="banner_img">
+            <img src="images/img/panel2.png" class="banner_img">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
