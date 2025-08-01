@@ -19,10 +19,7 @@
       <div class="header_section">
          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="justify-content: space-evenly;">
-               <a class="navbar-brand" href="index.html">
-                  <img class="desktop-img" src="images/img/Logo-BPO-Color.png" alt="Logo">
-                  <img class="mobile-img" src="images/img/celular.png" alt="Logo" style="display:none;">
-               </a>
+               <a class="navbar-brand" href="index.html"><img src="images/img/Logo-BPO-Color.png"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -36,7 +33,8 @@
       <!-- banner section start -->
       <div class="banner_section layout_padding">
          <div class="container">
-            <img src="images/img/panel2.png" class="banner_img">
+            <img class="desktop-img" src="images/img/panel2.png" alt="Logo" class="banner_img">
+            <img class="mobile-img" src="images/img/celular.png" alt="Logo" style="display:none;" class="banner_img">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
