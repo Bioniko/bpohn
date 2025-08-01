@@ -921,15 +921,6 @@ button.owl-next {
     margin-top: 90px;
 }
 
-@media (max-width: 600px) {
-  .desktop-img { display: none; }
-  .mobile-img { display: inline; }
-}
-
-@media (min-width: 601px) {
-  .desktop-img { display: inline; }
-  .mobile-img { display: none; }
-}
 
 /* copyright section end */
 

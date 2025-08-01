@@ -43,6 +43,19 @@
          border-radius: 100%;
          width: 60%;
       }
+      .mobile-img {
+      display: none;
+    }
+
+    /* Mostrar imagen móvil y ocultar desktop en pantallas pequeñas */
+    @media (max-width: 600px) {
+      .desktop-img {
+        display: none;
+      }
+      .mobile-img {
+        display: inline;
+      }
+    }
    </style>
    <body>
       <!-- header section start -->
@@ -76,9 +89,9 @@
       <!-- banner section start -->
       <div class="banner_section layout_padding">
          <div class="container">
-            <img class="desktop-img banner_img" src="images/img/panel.png" alt="Logo">
-            <img class="mobile-img banner_img" src="images/img/celular.png" alt="Logo" style="display:none;">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <img class="desktop-img banner_img" src="images/img/panel.png" alt="Logo escritorio">
+            <img class="mobile-img banner_img" src="images/img/celular.png">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" alt="Logo móvil">
                <div class="carousel-inner">
                   <div class="carousel-item active">
                      <div class="row">
