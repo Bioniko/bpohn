@@ -87,6 +87,7 @@
 <script src="js/custom.js"></script>
 <!-- javascript --> 
 <script src="js/owl.carousel.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
     $('.owl-carousel').owlCarousel({
     loop:true,

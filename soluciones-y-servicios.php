@@ -297,6 +297,10 @@
                            <div class="form-group">
                               <textarea class="massage-bt" placeholder="Cuéntanos qué servicio te interesa" rows="5" id="comment" name="mensaje"></textarea>
                            </div>
+                           <!-- reCAPTCHA -->
+                           <div class="form-group">
+                              <div class="g-recaptcha" data-sitekey="6LeNpqsrAAAAAN_kBXEnLeHQNATh58bby-j6e4pE"></div>
+                           </div>
                         </form>
                         <div class="send_bt" onclick="document.getElementById('miFormulario').submit()"><a style="color: #fff">Contáctanos</a></div>
                      </div>
