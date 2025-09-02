@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     try {
         //$mail->SMTPDebug = 2; // Debug opcional
         $mail->isSMTP();
-        $mail->Host       = 'mail.alertahn.com';   // Servidor SMTP
+        $mail->Host       = 'mail.bpohn.com';   // Servidor SMTP
         $mail->SMTPAuth   = true;
         $mail->Username   = 'info@bpohn.com';      // Tu correo
         $mail->Password   = 'bpoIN2024##';         // Tu contraseña real
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Port       = 465;                   
         $mail->CharSet    = 'UTF-8';
 
-        $mail->setFrom('info@bpohn.com', 'mail@alertahn.com');
+        $mail->setFrom('info@bpohn.com', 'mail@bpohn.com');
         $mail->addAddress('info@bpohn.com'); // Destinatario
 
         $mail->isHTML(true);
