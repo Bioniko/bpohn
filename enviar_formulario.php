@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->addAddress('info@bpohn.com'); // Destinatario
 
         $mail->isHTML(true);
-        $mail->Subject = "Nuevo mensaje de Alerta Security Group";
+        $mail->Subject = "Nuevo mensaje de BPOHN";
         $mail->Body    = "
             <h3>Nuevo mensaje recibido</h3>
             <p><strong>Nombre:</strong> {$nombre}</p>
