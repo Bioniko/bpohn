@@ -1,24 +1,24 @@
 # Bloquear acceso web al directorio .git
-RedirectMatch 404 ^/\.git
+#edirectMatch 404 ^/\.git
 
 
 # Forzar redirección de HTTP a HTTPS
-RewriteEngine On
+#RewriteEngine On
 
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
 # Redirige errores de escritura como index.hrml hacia index.html
-Redirect 301 /index.hrml /index.html
+#Redirect 301 /index.hrml /index.html
 
 # Página de error 404 personalizada (opcional)
-ErrorDocument 404 /404.html
+#ErrorDocument 404 /404.html
 
 # Redirige solicitudes a index.php hacia index.html
-Redirect 301 /index.php /index.html
+#Redirect 301 /index.php /index.html
 
 # Página de error 404 personalizada (opcional)
-ErrorDocument 404 /404.html
+#ErrorDocument 404 /404.html
 
 
