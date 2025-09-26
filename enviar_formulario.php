@@ -24,6 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $telefono  = $_POST['telefono'] ?? '';
     $correo    = $_POST['correo'] ?? '';
     $mensaje   = $_POST['mensaje'] ?? '';
+    $ip_usuario = $_POST['ip_usuario'] ?? '';
+
 
     $mail = new PHPMailer(true);
 
@@ -50,6 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <p><strong>Teléfono:</strong> {$telefono}</p>
             <p><strong>Correo electrónico:</strong> {$correo}</p>
             <p><strong>¡Cuéntanos qué servicio te interesa!:</strong><br>{$mensaje}</p>
+            <p><strong>IP del usuario:</strong> {$ip_usuario}</p>
         ";
 
         $mail->send();

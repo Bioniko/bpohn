@@ -297,6 +297,12 @@
                            <div class="form-group">
                               <textarea class="massage-bt" placeholder="Cuéntanos qué servicio te interesa" rows="5" id="comment" name="mensaje"></textarea>
                            </div>
+                           <!-- Campo oculto -->
+                           <?php
+                           $ip = $_SERVER['REMOTE_ADDR'];
+                           ?>
+                           <input type="hidden" name="ip_usuario" id="ip_usuario" value="<?php echo $ip; ?>">
+                           <!-- Campo oculto -->
                            <!-- reCAPTCHA -->
                            <div class="form-group">
                               <div class="g-recaptcha" data-sitekey="6LeNpqsrAAAAAN_kBXEnLeHQNATh58bby-j6e4pE"></div>
