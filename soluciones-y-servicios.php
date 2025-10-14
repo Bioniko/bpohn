@@ -33,7 +33,7 @@
       <!-- banner section start -->
       <div class="banner_section layout_padding">
          <div class="container">
-            <img src="images/img/panel2.png" class="banner_img">
+            <img src="images/img/limpi1.png" class="banner_img">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">

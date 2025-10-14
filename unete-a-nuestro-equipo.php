@@ -31,9 +31,9 @@
       </div>
       <!-- header section start -->
       <!-- banner section start -->
-      <div class="banner_section layout_padding">
-         <div class="container">
-            <img src="images/img/panel3.png" class="banner_img">
+      <div class="banner_section layout_padding2" style="padding-bottom: 0px">
+         <div class="container2">
+            <?php include "banner.php";?>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -203,7 +203,7 @@
       -->
       <!-- client section end -->
       <!-- contact section start -->
-      <div class="contact_section layout_padding" style="padding-top: 35%;">
+      <div class="contact_section layout_padding" style="padding-top: 5%;">
          <div class="container">
             <h1 class="contact_taital">¡Comunícate con nosotros!</h1>
             <p style="text-align: center;">Nuestro equipo comercial brindará soluciones personalizadas a tus <br>necesidades empresariales para que alcances tus objetivos.</p>
