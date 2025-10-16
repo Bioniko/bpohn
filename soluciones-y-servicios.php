@@ -31,7 +31,7 @@
       </div>
       <!-- header section start -->
       <!-- banner section start -->
-      <div class="banner_section layout_padding" style="padding: 70px 0px 70px 0px">
+      <div class="banner_section layout_padding" style="padding: 10px 0px 70px 0px">
          <div class="container2">
             <?php include "banner-soluciones.php";?>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
