@@ -225,6 +225,7 @@
                               <div class="client_img acoplar"><img src="images/img/2.png" class="tamanioimg"></div>
                            </div>
                         </div>
+                        <!--
                         <div class="client_main" style="margin-top: 45px;">
                            <div class="client_left">
                               <div class="client_img acoplar"><img src="images/img/3.png" class="tamanioimg"></div>
@@ -235,6 +236,7 @@
                               <p class="lorem_text">Servicios adaptados a tu horarios y necesidades especificas.<br><br><br></p>
                            </div>
                         </div>
+                        
                         <div class="client_main_2">
                            <div class="client_right_2">
                               <h3 class="name_text">AHORRE TIEMPO Y RECURSOS<span style="float: left;"></h3>
@@ -243,6 +245,17 @@
                            </div>
                            <div class="client_left_2">
                               <div class="client_img acoplar"><img src="images/img/4.png" class="tamanioimg"></div>
+                           </div>
+                        </div>
+                        -->
+                        <div class="client_main" style="margin-top: 45px;">
+                           <div class="client_left">
+                              <div class="client_img acoplar"><img src="images/img/4.png" class="tamanioimg"></div>
+                           </div>
+                           <div class="client_right">
+                              <h3 class="name_text">AHORRE TIEMPO Y RECURSOS<span style="float: right;"></h3>
+                              <p class="dolor_text">EFICIENCIA</p>
+                              <p class="lorem_text">Ahorre tiempo y recursos en contratación y gestión de RRHH. Nosotros nos encargamos de todo los procesos necesarios para que usted pueda centrarse en su actividad principal.<br><br><br></p>
                            </div>
                         </div>
                      </div>

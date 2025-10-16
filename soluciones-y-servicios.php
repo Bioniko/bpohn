@@ -54,33 +54,33 @@
                <p style="text-align: center;">Ofrecemos Limpieza Corporativa impulsada por Tecnología, Precisión y Control Inteligente</p>
             <div class="row" style="padding: 5% 10% 5% 10%;">
                <div class="col-md-4 col-sm-12" style="text-align: center;">
-                  <img src="images/img/AdminPlanilla.png" style="width: 30%;">
-                  <h2 style="padding: 5% 0% 0% 0%">Administración de Planilla</h2>
+                  <img src="images/img/Innovación tecnológica.png" style="width: 30%;">
+                  <h2 style="padding: 5% 0% 0% 0%">Innovación tecnológica</h2>
                   <div style="text-align: left">
                      <p style="font-weight: 400;">
-                        Nuestra solución de manejo de nómina permite a nuestros clientes concentrarse en su núcleo empresarial al desprenderse de las complejidades de procesar nóminas.
+                        Incorporamos herramientas inteligentes para la gestión y supervisión del servicio, incluyendo reportes digitales, control de asistencia en tiempo real y trazabilidad de tareas mediante plataformas automatizadas.
                      </p>
                      <div style="padding-left: 20px;">
                         <ul style="list-style: disc !important; display: block !important; padding-left: 20px !important;">
-                           <li style="display: list-item !important; list-style: disc !important;">Reducción de costos fijos</li>
-                           <li style="display: list-item !important; list-style: disc !important;">Mayor eficiencia en los tiempos de respuesta</li>
-                           <li style="display: list-item !important; list-style: disc !important;">Evitar responsabilidades patronales</li>
+                           <li style="display: list-item !important; list-style: disc !important;">Plataformas de control de calidad</li>
+                           <li style="display: list-item !important; list-style: disc !important;">Aplicaciones de gestión operativa</li>
+                           <li style="display: list-item !important; list-style: disc !important;">Software de gestión centralizado</li>
                         </ul>
                      </div>
                   </div>
                </div>
                <div class="col-md-4 col-sm-12" style="text-align: center;">
                   <img src="images/img/Procesos.png" style="width: 30%;">
-                  <h2 style="padding: 5% 0% 0% 0%">Procesos Productivos</h2>
+                  <h2 style="padding: 5% 0% 0% 0%">Automatización de procesos</h2>
                   <div style="text-align: left">
                      <p style="font-weight: 400;">
-                        Entendemos la importancia de los procesos productivos para nuestros clientes y por eso proporcionamos personal que puede integrarse adiversas líneas de producción, ya sea para temporadas altas, proyectos temporales  de manera indefinida.
+                        Implementamos flujos operativos digitalizados que reducen errores humanos y mejoran la coordinación entre equipos de limpieza, supervisión y clientes.
                      </p>
                      <div style="padding-left: 20px;">
                         <ul style="list-style: disc !important; display: block !important; padding-left: 20px !important;">
-                           <li style="display: list-item !important; list-style: disc !important;">Capacidad de reacción necesaria</li>
-                           <li style="display: list-item !important; list-style: disc !important;">Evitar costos de reclutamiento</li>
-                           <li style="display: list-item !important; list-style: disc !important;">Garantía de personal capacitado</li>
+                           <li style="display: list-item !important; list-style: disc !important;">Reportes en tiempo real</li>
+                           <li style="display: list-item !important; list-style: disc !important;">Alertas y seguimiento automatizado</li>
+                           <li style="display: list-item !important; list-style: disc !important;">Sistemas de planificación automática</li>
                         </ul>
                      </div>
                   </div>
