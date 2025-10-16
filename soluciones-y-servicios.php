@@ -31,9 +31,9 @@
       </div>
       <!-- header section start -->
       <!-- banner section start -->
-      <div class="banner_section layout_padding">
-         <div class="container">
-            <img src="images/img/limpi1.png" class="banner_img">
+      <div class="banner_section layout_padding" style="padding: 70px 0px 70px 0px">
+         <div class="container2">
+            <?php include "banner-soluciones.php";?>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -48,10 +48,10 @@
       </div>
       <!-- banner section end -->
       <!-- service section start -->
-      <div style="padding: 52% 10% 5% 10%;">
+      <div style="padding: 40% 10% 5% 10%;">
          <div>
             <h1 class="contact_taital">¿Por qué escogernos?</h1>
-               <p style="text-align: center;">Somos especialistas en gestión de staff</p>
+               <p style="text-align: center;">Ofrecemos Limpieza Corporativa impulsada por Tecnología, Precisión y Control Inteligente</p>
             <div class="row" style="padding: 5% 10% 5% 10%;">
                <div class="col-md-4 col-sm-12" style="text-align: center;">
                   <img src="images/img/AdminPlanilla.png" style="width: 30%;">
@@ -102,6 +102,7 @@
                   </div>
                </div>
             </div>
+            <!--
             <div class="row" style="padding: 5% 10% 5% 10%;">
                <div class="col-md-4 col-sm-12" style="text-align: center;">
                   <img src="images/img/Impulsadora.png" style="width: 30%;">
@@ -152,6 +153,7 @@
                   </div>
                </div>
             </div>
+            -->
          </div>
       </div>
       <!-- service section end -->
