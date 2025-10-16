@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  padding: 4rem 8%;
+  padding: 5rem 8%;
   flex-wrap: wrap;
   position: relative;
   background-color: #f7f8fa;
