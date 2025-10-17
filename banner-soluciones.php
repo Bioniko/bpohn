@@ -216,7 +216,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-position-y: 0;
+    background-position-y: 100%;
   }
 
   /* capa semitransparente para contraste */
