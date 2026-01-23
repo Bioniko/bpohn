@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Host       = 'mail.bpohn.com';   // Servidor SMTP
         $mail->SMTPAuth   = true;
         $mail->Username   = 'info@bpohn.com';      // Tu correo
-        $mail->Password   = 'bpoIN2024##';         // Tu contraseña real
+        $mail->Password   = 'bpoIN2025###';         // Tu contraseña real
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; 
         $mail->Port       = 465;                   
         $mail->CharSet    = 'UTF-8';
