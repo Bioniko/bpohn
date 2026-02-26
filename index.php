@@ -32,6 +32,13 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WC7R9963');</script>
+      <!-- End Google Tag Manager -->
    </head>
    <style>
       .acoplar{
@@ -43,26 +50,30 @@
          border-radius: 100%;
          width: 60%;
       }
-   .mobile-img {
-      display: none;
-    }
-    .bajarl{
-      padding: 5% 10% 5% 10%;
-    }
-    /* Mostrar imagen móvil y ocultar desktop en pantallas pequeñas */
-    @media (max-width: 600px) {
-      .desktop-img {
-        display: none;
-      }
       .mobile-img {
-        display: block;
+         display: none;
       }
       .bajarl{
-         padding: 112% 10% 5% 10% !important;
+         padding: 5% 10% 5% 10%;
       }
-    }
+      /* Mostrar imagen móvil y ocultar desktop en pantallas pequeñas */
+      @media (max-width: 600px) {
+         .desktop-img {
+         display: none;
+         }
+         .mobile-img {
+         display: block;
+         }
+         .bajarl{
+            padding: 112% 10% 5% 10% !important;
+         }
+      }
    </style>
    <body>
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WC7R9963"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
       <!-- header section start -->
       <div class="header_section">
          <div class="container-fluid">
